@@ -23,7 +23,31 @@
             <li>UI/UX Design</li>
             <li>SEO & Content Strategy</li>
         </ul>
-    </section>
+    </section>import React from "react";
+
+export default function SpokenWordPiece() { return ( <section className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white p-8 flex flex-col items-center justify-center"> <div className="max-w-3xl w-full text-center"> <h1 className="text-4xl font-bold mb-4 text-purple-400">The Mind That Almost Broke Me</h1> <h2 className="text-xl italic mb-6 text-gray-400">by Levis Wangamati</h2>
+
+{/* Audio Player */}
+    <audio controls className="mb-6 mx-auto">
+      <source src="/audio/the-mind-that-almost-broke-me.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div className="space-y-4 text-lg leading-relaxed">
+      <p>My mind<br />Yeah<br />It almost destroyed me</p>
+      <p>I carry the blame<br />Presume it, consume it<br />Like shame was my second skin<br />I assume I’m the monster in the mirror<br />The silent storm, the chaos within</p>
+      <p>I thought everything was fine<br />Till betrayal knocked<br />Soft at first<br />Then shattered the spine of time<br />I think<br />No, I know<br />It was all just illusion<br />Smoke painted as paradise<br />A cruel, cruel delusion</p>
+      <p>I am<br />Or was<br />Terribly torn in a place I can’t name<br />Destroyed in a fake midlust<br />Whatever that is<br />It ain’t love, it ain’t fame</p>
+      <p>I saw the top<br />Reached for it<br />But it faded into a chilly mist<br />Just another ghost kiss<br />Another almost-hit I missed</p>
+      <p>And still<br />I am<br />But not whole<br />Not sane<br />I am my own mind's destroyer<br />Dragging chains made of flame</p>
+      <p>I triggered something deep<br />Something that doesn’t sleep<br />An emotion so real<br />It refuses to kneel</p>
+    </div>
+  </div>
+</section>
+
+); }
+
+    
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
