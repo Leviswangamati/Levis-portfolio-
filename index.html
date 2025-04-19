@@ -1,4 +1,135 @@
-<!DOCTYPE html>
+<import React from "react"; import { Card, CardContent } from "@/components/ui/card"; import { Button } from "@/components/ui/button";
+
+export default function Portfolio() { return ( <main className="p-6 max-w-5xl mx-auto space-y-10"> <section className="text-center"> <h1 className="text-4xl font-bold">Levis Wangamati</h1> <p className="text-lg mt-2 text-gray-600"> Writer | Spoken Word Artist | Web Designer </p> </section>
+
+<section>
+    <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+    <p>
+      Welcome to my creative universe. I’m Levis Wangamati, a passionate writer,
+      spoken word artist, and aspiring web designer based in Kenya. With a flair
+      for storytelling and digital artistry, I believe in blending imagination
+      with purpose. My work often explores themes of life, identity, humor, and truth.
+    </p>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-semibold mb-4">Poems</h2>
+
+    <Card className="mb-4">
+      <CardContent>
+        <h3 className="text-xl font-semibold">The Poem Called Life</h3>
+        <p className="text-gray-700">
+          A reflective piece exploring the complexities and unpredictability of existence.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-4">
+      <CardContent>
+        <h3 className="text-xl font-semibold">The Kangumuu Chronicles</h3>
+        <p className="whitespace-pre-line">
+          Today I walked with awkward grace
+          To Jamaa’s calm, familiar place.
+          My bag, a beast upon my spine,
+          I left it at the bagseder shrine...
+          
+          (full poem included)
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent>
+        <h3 className="text-xl font-semibold">The Mind That Almost Broke Me</h3>
+        <p>
+          A powerful spoken word piece reflecting on mental resilience and the silent battles within.
+        </p>
+      </CardContent>
+    </Card>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-semibold mb-4">Quote Feature</h2>
+    <blockquote className="text-xl italic text-center">
+      “Inspiration is... That quiet whisper that reminds you why you began, even when the world forgets.”
+    </blockquote>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-semibold mb-4">Web Design Portfolio</h2>
+
+    <Card className="mb-4">
+      <CardContent>
+        <h3 className="font-bold">Dream Journal Play Website</h3>
+        <p>
+          A landing page for a scriptbook performance. Includes animated elements,
+          night-sky theme, and embedded video.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-4">
+      <CardContent>
+        <h3 className="font-bold">Kangumuu Poster Page</h3>
+        <p>
+          A humorous webpage showcasing "The Kangumuu Encounter" with storytelling,
+          visuals, and audience interaction.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-4">
+      <CardContent>
+        <h3 className="font-bold">Philosophical Poems Library</h3>
+        <p>
+          A clean interface to explore themed poems, with quote blocks, audio playback,
+          and downloadable poem cards.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent>
+        <h3 className="font-bold">Personal Portfolio Website</h3>
+        <p>
+          A modern portfolio integrating all creative work with black-and-gold theme,
+          responsive layout, and contact integration.
+        </p>
+      </CardContent>
+    </Card>
+  </section>
+
+  <section>
+    <h2 className="text-2xl font-semibold mb-4">Kangumuu Poster</h2>
+    <img 
+      src="/A_poster_features_Levis_Wangamati,_a_young_Black_m.png" 
+      alt="Kangumuu Poster" 
+      className="rounded-xl shadow-lg w-full max-w-2xl mx-auto" 
+    />
+    <p className="text-center mt-2 text-gray-600">
+      A fusion of art, humor, and digital creativity.
+    </p>
+  </section>
+
+  <section className="text-center">
+    <h2 className="text-2xl font-semibold mt-10 mb-2">Connect With Me</h2>
+    <p className="mb-2">
+      <a
+        href="https://whatsapp.com/channel/0029VaFGGT49ENv0Vq2wHD3y"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        Join My WhatsApp Channel
+      </a>
+    </p>
+    <p className="text-sm text-gray-500">Email/contacts available upon request</p>
+  </section>
+</main>
+
+); }
+
+    !DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
